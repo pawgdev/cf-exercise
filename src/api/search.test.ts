@@ -5,8 +5,8 @@ import {
     itemWithoutLink,
     itemWithoutName,
     validItem
-} from './__stubs__/responseItems';
-import { item as returnItem } from './__stubs__/returnItems';
+} from '../__stubs__/responseItems';
+import { item as returnItem } from '../__stubs__/returnItems';
 
 describe('search', () => {
     test('should return the list of 5 public apis with description less than 100 characters', () => {

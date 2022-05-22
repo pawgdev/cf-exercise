@@ -4,7 +4,7 @@ interface ResponseEntryItem {
     Link: string;
 }
 
-interface SearchResultItem {
+export interface SearchResultItem {
     name: string;
     description: string;
     link: string;
