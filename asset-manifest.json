@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/cf-exercise/static/css/main.00e972ec.css",
+    "main.js": "/cf-exercise/static/js/main.6cf157d4.js",
+    "static/js/787.6e813578.chunk.js": "/cf-exercise/static/js/787.6e813578.chunk.js",
+    "index.html": "/cf-exercise/index.html",
+    "main.00e972ec.css.map": "/cf-exercise/static/css/main.00e972ec.css.map",
+    "main.6cf157d4.js.map": "/cf-exercise/static/js/main.6cf157d4.js.map",
+    "787.6e813578.chunk.js.map": "/cf-exercise/static/js/787.6e813578.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.00e972ec.css",
+    "static/js/main.6cf157d4.js"
+  ]
+}
