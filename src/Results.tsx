@@ -19,6 +19,8 @@ const Results = ({ results }: ResultsProps) => (
 export default Results;
 
 const Header = styled.h2`
-    font-size: 1.5rem;
-    margin: 2.5rem 1rem;
+    font-size: 2rem;
+    font-weight: 400;
+    margin: 2.5rem 0;
+    color: #3a3a3a;
 `;

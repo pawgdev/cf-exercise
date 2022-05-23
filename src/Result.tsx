@@ -9,7 +9,7 @@ interface ResultProp {
 const Result = ({ name, description, link }: ResultProp) => (
     <ResultWrapper aria-labelledby={name}>
         <Name id={name}>
-            <Link href={link}>{name}</Link>
+            <Link href={link} target="_blank">{name}</Link>
         </Name>
         <Description>{description}</Description>
     </ResultWrapper>
@@ -19,6 +19,7 @@ export default Result;
 
 const ResultWrapper = styled.section`
     margin: 1.5rem 0;
+    padding-bottom: 1.5rem;
     border-bottom: 1px solid #3a3a3a;
 `;
 

@@ -1,13 +1,16 @@
 import styled from 'styled-components';
+import { Container } from "./components";
 
 interface NoResultsProps {
     reason: 'empty-results' | 'error';
 }
 
 const NoResults = ({ reason }: NoResultsProps) => (
-    <Text>
-        {reason === 'empty-results' ? 'No results found' : 'An error occurred. Please try again later.'}
-    </Text>
+    <Container>
+        <Text>
+            {reason === 'empty-results' ? 'No results found' : 'An error occurred. Please try again later.'}
+        </Text>
+    </Container>
 );
 
 export default NoResults;

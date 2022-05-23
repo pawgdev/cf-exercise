@@ -38,6 +38,6 @@ export function search(title: string): Promise<SearchResultItem[]> {
         .catch(error => {
             console.error(error.message); // push this error to monitoring system, i.e. Sentry
 
-            return error;
+            throw error;
         })
 }

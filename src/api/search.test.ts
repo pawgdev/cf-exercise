@@ -45,6 +45,6 @@ describe('search', () => {
     test('should return the error message when it occurs', () => {
         jest.spyOn(window, 'fetch').mockRejectedValue(new Error('error'));
 
-        return expect(search('title')).resolves.toEqual(new Error('error'));
+        return expect(search('title')).rejects.toEqual(new Error('error'));
     });
 });
