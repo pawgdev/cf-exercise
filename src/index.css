@@ -2,7 +2,7 @@
     box-sizing: border-box;
 }
 
-:is(button, input):focus {
+:is(button, input, a):focus {
     outline: none;
     border: 3px dashed #036485;
 }
