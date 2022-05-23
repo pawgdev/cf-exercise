@@ -3,6 +3,7 @@ import { search, SearchResultItem } from "./api/search";
 import Form from "./Form";
 import Results from "./Results";
 import NoResults from "./NoResults";
+import { Loading } from './components';
 
 type AppState = {
     state: 'initial'
@@ -38,7 +39,7 @@ function App() {
     return (
         <>
             <Form onSubmit={setValue}/>
-            {state.state === 'in-progress' && <div>Loading...</div>}
+            {state.state === 'in-progress' && <Loading />}
             {state.state === 'success' && state.results.length > 0 && <Results results={state.results}/>}
             {state.state === 'success' && state.results.length === 0 && <NoResults reason="empty-results"/>}
             {state.state === 'failure' && <NoResults reason="error"/>}
